@@ -35,7 +35,7 @@ import AddTaskForm from './components/AddTaskForm';
       const setTaskStatus = (taskId, status) => {
        setTasks(tasks.map(task => {
         if (task.id === taskId) {
-         return {...task, status}
+         return {...task, status: status ? 1 : 0}
         }
         return task;
        }))
