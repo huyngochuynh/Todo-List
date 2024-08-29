@@ -25,6 +25,7 @@ import AddTaskForm from './components/AddTaskForm';
         }
         setTasks([...tasks, task]);
         setNewTask("");
+        // console.log()
        }
       }
       
